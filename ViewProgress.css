@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #00308F;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    align-items: center;
+}
+h4 {
+    align-items: center;
+}
+.nav {
+    list-style: none;
+    display: flex;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+button {
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00308F;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.main h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #00308F;
+    margin-bottom: 10px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #00308F;
+    text-align: right;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid #00308F;
+}
+
+input[type="submit"] {
+    grid-column: 2 / 3;
+    background-color: #00308F;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #00308F;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+label {
+    font-size: 18px;
+}
+progress { width: calc(100% - 60px); height: 20px; 
+color: gold;}
+
+
+progress-value {
+    background-color: gold;
+}
+
+
+
+
+
