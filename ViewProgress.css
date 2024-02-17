@@ -120,6 +120,11 @@ progress-value {
     background-color: gold;
 }
 
+h1 a {
+    text-decoration: none;
+    color: white; 
+}
+
 
 
 
