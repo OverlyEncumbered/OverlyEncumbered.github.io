@@ -117,3 +117,8 @@ p {
     padding: 20px;
     box-sizing: border-box;
 }
+
+h1 a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Change link color to your preference */
+}
