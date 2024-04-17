@@ -115,3 +115,19 @@ p {
     padding: 20px;
     box-sizing: border-box;
 }
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+button {
+  font-family: Arial;
+  background-color: #00308F;
+  color: white;
+  margin: 10px; 
+  padding: 10px 20px;
+  border: none;
+
+}
