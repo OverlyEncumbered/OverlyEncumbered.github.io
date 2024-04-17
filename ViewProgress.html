@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<title>
+<html>
+<head>
     <meta charset="UTF-8">
     <title>Simply Fit</title>
     <link rel="stylesheet" href="ViewProgress.css"> 
-</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
 <body>
     <div class="container">
         <div class="header">
@@ -14,12 +16,34 @@
                 <li><a href="Community.html">Community</a></li>
             </ul>
         </div>
-<div class="progress-container">
-    <label for="fitnessLevel">Fitness Level:</label>
-    <progress id="fitnessLevel" value="86" max="100"></progress>
-    <span>86%</span>
-</div>
-<p><b>Good Job! You're almost to your goal!</b><p>
-<button><a href="Previouslogs.html">Previous workout logs</a></button>
-<p>Simply Fit. Daytona State College.</p>
+        <div class="progress-container">
+            <label for="fitnessLevel">Fitness Level:</label>
+            <progress id="fitnessLevel" value="86" max="100"></progress>
+            <span>86%</span>
+        </div>
+        <p><b>Good Job! You're almost to your goal!</b><p>
+        <button><a href="Previouslogs.html">Previous workout logs</a></button>
+        <canvas id="myChart" width="400" height="400"></canvas>
+        <p>Simply Fit. Daytona State College.</p>
+    </div>
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var chart = new Chart(ctx, {
+            type: 'bar',
+
+
+            data: {
+                labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+                datasets: [{
+                    label: 'Workouts',
+                    backgroundColor: 'rgb(0, 19, 96)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: [5, 10, 12, 18, 14, 8, 5]
+                }]
+            },
+
+            options: {}
+        });
+    </script>
 </body>
+</html>
