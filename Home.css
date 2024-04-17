@@ -5,7 +5,7 @@
 }
 title {
     cursor: default;
-     color: bwhite;
+    color: white;
     text-decoration:none;
 }
 .container {
@@ -133,5 +133,20 @@ button {
   margin: 10px; 
   padding: 10px 20px;
   border: none;
+}
 
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: inherit;
+}
+
+button {
+    text-decoration: none;
+}
+
+button:active {
+    background-color: inherit;
 }
