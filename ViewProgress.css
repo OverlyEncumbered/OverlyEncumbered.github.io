@@ -5,7 +5,6 @@
 }
 
 .container {
-    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -16,6 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
 .header h1 {

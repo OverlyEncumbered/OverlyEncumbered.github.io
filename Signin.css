@@ -200,3 +200,10 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+
+h1 a:active {
+    text-decoration: done;
+}
+h1 a{
+    text-decoration: done;
+}
