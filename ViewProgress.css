@@ -107,6 +107,7 @@ p {
     background-color: #f3f3f3;
     padding: 20px;
     box-sizing: border-box;
+    max-width: 800px;
 }
 
 label {
