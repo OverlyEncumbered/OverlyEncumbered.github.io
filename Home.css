@@ -26,6 +26,7 @@ title {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 36px;
+    text-decoration: none;
 }
 
 .nav {
@@ -148,5 +149,5 @@ button {
 }
 
 button:active {
-    background-color: inherit;
+    text-decoration: none;
 }
