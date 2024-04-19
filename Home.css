@@ -142,6 +142,7 @@ a {
 
 a:active {
     color: inherit;
+    text-decoration: none;
 }
 
 button {
@@ -150,4 +151,9 @@ button {
 
 button:active {
     text-decoration: none;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white; 
 }
