@@ -133,12 +133,14 @@ button {
   background-color: #00308F;
   color: white;
   margin: 10px; 
+
   padding: 10px 20px;
   border: none;
 }
 
 a {
     text-decoration: none;
+    color:inherit;
 }
 
 a:active {
