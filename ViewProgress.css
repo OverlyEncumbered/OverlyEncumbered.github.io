@@ -109,8 +109,6 @@ p {
     box-sizing: border-box;
     max-width: 800px;
     align-items:center;
-    justify-content: center;
-    display: flex;
 }
 
 label {
