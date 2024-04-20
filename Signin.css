@@ -202,8 +202,8 @@ button {
 }
 
 h1 a:active {
-    text-decoration: done;
+    text-decoration: none;
 }
 h1 a{
-    text-decoration: done;
+    text-decoration: none;
 }
