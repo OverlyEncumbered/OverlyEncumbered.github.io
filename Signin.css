@@ -206,4 +206,10 @@ h1 a:active {
 }
 h1 a{
     text-decoration: none;
+    color: white;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
 }
